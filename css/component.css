@@ -55,14 +55,14 @@ body {
 .side-left {
 	left: 0;
 	background: #EFEFEF;
-	color: #fff;
+	color: #6a7d7e;
 	outline: 1px solid #EFEFEF; /* avoid gap */
 }
 
 .side-right {
 	right: 0;
 	background: #54CCCD;
-	color: #47a3da;
+	color: #3d3d3d;
 	outline: 1px solid #54CCCD; /* avoid gap */
 }
 
@@ -199,8 +199,8 @@ body {
 
 .page-left {
 	left: 0;
-	outline: 5px solid #34495e; /* avoid rounding gaps */
-	background: #34495e;
+	outline: 5px solid #6a7d7e; /* avoid rounding gaps */
+	background: #6a7d7e;
 	color: #fff;
 	text-align: right;
 	-webkit-transform: translateX(-100%);
