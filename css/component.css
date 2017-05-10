@@ -54,16 +54,16 @@ body {
 
 .side-left {
 	left: 0;
-	background: #47a3da;
+	background: #EFEFEF;
 	color: #fff;
-	outline: 1px solid #47a3da; /* avoid gap */
+	outline: 1px solid #EFEFEF; /* avoid gap */
 }
 
 .side-right {
 	right: 0;
-	background: #fff;
+	background: #54CCCD;
 	color: #47a3da;
-	outline: 1px solid #fff; /* avoid gap */
+	outline: 1px solid #54CCCD; /* avoid gap */
 }
 
 /* Intro content, profile image and name, back button */
