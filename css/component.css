@@ -33,6 +33,11 @@ body {
 	cursor: default;
 }
 
+.open-left .side .details,
+.open-right .side .details {
+	display: none;
+}
+
 .overlay {
 	position: absolute;
 	top: 0;
@@ -211,7 +216,7 @@ body {
 	outline: 5px solid #6a7d7e; /* avoid rounding gaps */
 	background: #6a7d7e;
 	color: #fff;
-	text-align: right;
+	text-align: left;
 	-webkit-transform: translateX(-100%);
 	transform: translateX(-100%);
 }
@@ -238,6 +243,7 @@ body {
 .page-inner p {
 	font-weight: 300;
 	font-size: 1.2em;
+	text-align: justify;
 }
 
 /* All transitions */
@@ -426,6 +432,7 @@ body {
 @media screen and (max-width: 42.5em) {
 	body { font-size: 80%; }
 	.intro-content { font-size: 50%; }
+	.page-inner img {width: 100%;}
 }
 
 @media screen and (max-height: 41.125em) {
