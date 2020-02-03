@@ -34,7 +34,7 @@ a:hover {
 	transition: opacity 0.3s;
 }
 
-.footer h1 {
+.ribbonheader h1 {
 	text-indent: -9999px;
 }
 
@@ -87,8 +87,8 @@ a:hover {
 	.footer {
 		text-align: center;
 	}
-	.footer h1,
-	.footer nav,
+	.ribbonheader h1,
+	.footer,
 	.details,
 	.side-left .details,
 	.side-right .details{
