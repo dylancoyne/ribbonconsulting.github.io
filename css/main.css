@@ -84,7 +84,7 @@ a:hover {
 
 
 @media screen and (max-width: 73.375em) {
-	.footer {
+	.footer, .intro {
 		text-align: center;
 	}
 	.ribbonheader h1,

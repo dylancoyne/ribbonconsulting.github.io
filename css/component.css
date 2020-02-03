@@ -362,7 +362,7 @@ body {
 }
 
 @media screen and (max-width: 58em) {
-	body { font-size: 90%; }
+	body { font-size: 80%; }
 }
 
 @media screen and (max-width: 49.4375em) {
@@ -435,11 +435,7 @@ body {
 	.page-inner img {width: 100%;}
 	.intro-content h1 > span:first-child {
 	font-size: 1.8em;}
-	
-	
-	
-	
-	
+
 	
 }
 
@@ -455,5 +451,13 @@ body {
 }
 
 @media screen and (max-width: 320px) {
+	body { font-size: 70%; }
+}
+
+@media screen and (max-width: 1024px) {
+	body { font-size: 90%; }
+}
+
+@media screen and (max-width: 1366px) {
 	body { font-size: 70%; }
 }
