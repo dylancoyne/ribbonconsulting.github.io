@@ -23,7 +23,7 @@ a:hover {
 	color: #000;
 }
 
-.ribbonheader {
+.footer {
 	width: 100%;
 	margin: 0 auto;
 	text-align: left;
@@ -34,7 +34,7 @@ a:hover {
 	transition: opacity 0.3s;
 }
 
-.ribbonheader h1 {
+.footer h1 {
 	text-indent: -9999px;
 }
 
@@ -66,9 +66,8 @@ a:hover {
 }
 
 .side-left .details {
-	float: right;
-	margin-left: 2em;
-	margin-bottom: 1em;
+	float: left;
+	margin: 0;
 }
 
 
@@ -80,30 +79,40 @@ a:hover {
 
 .side-right .details {
 	float: right;
-	margin-right: 2em;
-	margin-bottom: 1em;
+	margin: 0;
 }
 
 
 @media screen and (max-width: 73.375em) {
-	.ribbonheader {
+	.footer {
 		text-align: center;
 	}
-	.ribbonheader h1,
-	.ribbonheader nav,
-	.demos {
+	.footer h1,
+	.footer nav,
+	.details,
+	.side-left .details,
+	.side-right .details{
 		float: none;
 		margin: 0 auto;
 		padding: 0.15em 0;
 	}
-	.ribbonheader > span {
+	.footer > span {
 		padding: 0;
 	}
-	.ribbonheader > span span:after {
+	.footer > span span:after {
 		display: none;
 	}
+	.details {
+		display: inline-block;
+		line-height: 1.4em;
+		color: rgba(0,0,0,.9);
+		font-size: 14px;
+	}
+	
+
 }
 
 @media screen and (max-height: 30.25em) {
-	.ribbonheader nav { display: none; }
+	.footer nav { display: none; }
+
 }

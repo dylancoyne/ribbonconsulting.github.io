@@ -433,12 +433,20 @@ body {
 	body { font-size: 80%; }
 	.intro-content { font-size: 50%; }
 	.page-inner img {width: 100%;}
+	.intro-content h1 > span:first-child {
+	font-size: 1.8em;}
+	
+	
+	
+	
+	
+	
 }
 
 @media screen and (max-height: 41.125em) {
 	.intro-content {
 		-webkit-transform: translateY(-25%) translateX(-50%);
-		transform: translateY(-25%) translateX(-50%);
+		transform: translateY(-50%) translateX(-50%);
 	}
 }
 
