@@ -41,7 +41,7 @@ a:hover {
 .details {
 	display: inline-block;
 	line-height: 2.4em;
-	color: rgba(0,0,0,.9);
+	color: rgba(255,255,255,.9);
 	font-weight:200;
 	font-size: 18px;
 }
