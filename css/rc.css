@@ -1,0 +1,45 @@
+.mvh-100 {
+    min-height: 100vh;
+}
+
+
+.mvh-90 {
+    min-height: 90vh;
+}
+
+.mvh-10 {
+    min-height: 10vh;
+}
+
+
+
+h3 {
+ visibility:hidden;
+}
+
+.side img.rounded-circle {
+margin: 0 auto;
+width: 140px;
+height: 140px;
+
+}
+
+
+.left-side {
+background-color: #EFEFEF;
+color:#6a7d7e;
+
+}
+
+.right-side {
+background-color: #252A32;
+color:#F9F9FF;
+
+}
+
+p {
+text-transform: uppercase;
+font-size: 20px;
+letter-spacing: 1px !important;
+
+}
